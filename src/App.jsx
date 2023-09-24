@@ -5,6 +5,7 @@ import Header from './Component/Header'
 import About from './Component/About'
 import Card from './Component/Card'
 import Skills from './Component/Skills'
+import Footer from './Component/Footer'
 
 function App() {
 
@@ -16,9 +17,11 @@ function App() {
       <About/>
       <Card/>
       <Skills/>
-      This is Section 
+      <Footer/>
 
+ 
      </Layout>
+     
     </>
   )
 }

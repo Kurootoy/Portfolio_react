@@ -1,14 +1,17 @@
 const About = () => {
   return (
-    <div className="flex flex-row items-center justify-evenly h-80">
+    <div
+      id="about"
+      className="flex flex-row items-center justify-evenly h-80"
+    >
       <div className="">This is image</div>
 
       <div className="">
         <h2>About Me</h2>
         <p>
           I was interested in web app or appliccation.I will start learn about
-          it.<br></br> I can grow and continuce to learn form another experienced team
-          members.
+          it.<br></br> I can grow and continuce to learn form another
+          experienced team members.
         </p>
         <div className="">
           <div className="">
