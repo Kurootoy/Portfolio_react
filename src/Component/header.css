@@ -1,0 +1,40 @@
+.blur {
+  position: absolute;
+  box-shadow: 0 0 1000px 70px #1d4ed8;
+  z-index: 100;
+  
+}
+
+/* header {
+  padding-top: 2rem;
+  gap: 2rem;
+  background-color: #18181b;
+} */
+
+
+
+header .content h1 {
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+header .content h1 span {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #e2ff32;
+}
+
+/* header .content p {
+  margin-bottom: 2rem;
+  color: #ccc;
+} */
+
+section .header {
+  margin-bottom: 1rem;
+  color: #fff;
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 600;
+}

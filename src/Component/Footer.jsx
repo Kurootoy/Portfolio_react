@@ -4,6 +4,7 @@ const Footer = () => {
   return (
     <>
       <div className="h-48 bg-[#121212] flex justify-evenly items-center">
+        
       <a href="https://www.linkedin.com/in/settawut-jirakannukun-354080285/" target="_blank" rel="noopener noreferrer">
         <svg
           className="w-10 h-10 text-[#E2FF32] "
@@ -20,6 +21,8 @@ const Footer = () => {
           <path d="M3 5.012H0V15h3V5.012Z" />
         </svg>
         </a>
+
+
         <a href="https://github.com/Kurootoy" target="_blank" rel="noopener noreferrer">
         <svg
           className="w-[40px] h-[40px] text-[#E2FF32] dark:text-white"
@@ -35,7 +38,8 @@ const Footer = () => {
           />
         </svg>
         </a>
-        <div className="text-white"> My credit</div>
+ 
+      
       </div>
       
     </>
