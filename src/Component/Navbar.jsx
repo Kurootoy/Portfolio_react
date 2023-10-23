@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 
 const Navbar = () => {
@@ -10,38 +11,32 @@ const Navbar = () => {
 
   return (
     <nav className="top-0 left-0 right-0 p-4 z-10 fixed flex justify-evenly bg-[#121212]">
-      <a
-        href="/"
-        onClick={(e) => {
-          e.preventDefault();
+      <div
+        onClick={() => {
           scrollToSection("home");
         }}
-        className="text-white hover:text-orange-400"
+        className="text-white hover:text-orange-400 cursor-pointer"
       >
         Home
-      </a>
+      </div>
 
-      <a
-        href="/about"
-        onClick={(e) => {
-          e.preventDefault(); 
+      <div
+        onClick={() => {
           scrollToSection("about");
         }}
-        className="text-white hover:text-orange-400"
+        className="text-white hover:text-orange-400 cursor-pointer"
       >
-        About
-      </a>
+        About Me
+      </div>
 
-      <a
-        href="/skills"
-        onClick={(e) => {
-          e.preventDefault();
-          scrollToSection("skills");
+      <div
+        onClick={() => {
+          scrollToSection("project");
         }}
-        className="text-white hover:text-orange-400"
+        className="text-white hover:text-orange-400 cursor-pointer"
       >
-        Skills
-      </a>
+        Proeject
+      </div>
     </nav>
   );
 };

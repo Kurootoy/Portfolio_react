@@ -5,7 +5,8 @@ import Header from "./Component/Header";
 import About from "./Component/About";
 import Card from "./Component/Card";
 import Project from "./Component/Project";
-import Footer from "./Component/Footer";
+
+
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <About />
         <Card />
         <Project />
-        <Footer/>
+
       </Layout>
     </>
   );
