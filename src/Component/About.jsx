@@ -47,7 +47,7 @@ const About = () => (
     className="flex flex-row items-center justify-center h-auto gap-28 pb-12 bg-[#18181b] text-white"
   >
     <img
-      src="../img/2.jfif"
+      src="/img/2.jfif"
       className="w-1/6 h-80% rounded-full"
       alt="Profile"
       data-aos="fade-right"
