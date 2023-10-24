@@ -16,7 +16,7 @@ const ContactDetails = () => (
     <button
       className="mt-5 flex items-center bg-[#121212] text-red-400 h-16 rounded-xl mx-8 p-5 text-lg font-semibold   border-red-200 border-2 border-solid
          hover:text-[#121212] hover:bg-red-200 "
-      onClick={() => window.open("../Resume/CV_Settawut.pdf", "_blank")}
+      onClick={() => window.open("/Resume/CV_Settawut.pdf", "_blank")}
     >
       <box-icon
         name="download"
