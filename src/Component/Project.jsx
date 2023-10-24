@@ -84,7 +84,7 @@ const Project = () => {
             projectName="Portfolio React"
             description="I created a static portfolio website using React and Tailwind CSS. This website reflects my skills and showcases various mini-projects"
             image="../img/Resume.png"
-            Skill={["Javascript", "React Js", "Tailwind",""]}
+            Skill={["Javascript", "React Js", "Tailwind"]}
             codeLink="https://github.com/Kurootoy/Resume_react"
             demoLink="/" 
           />
