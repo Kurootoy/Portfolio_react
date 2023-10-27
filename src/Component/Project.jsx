@@ -78,7 +78,7 @@ const Project = () => {
             image="../img/keep-fit.png"
             Skill={["Javascript", "React Js", "MongoDB", "Tailwind"]}
             codeLink="https://github.com/Kurootoy/keepfit-react"
-            demoLink="keepfit-react.vercel.app" 
+            demoLink="https://keepfit-demo.vercel.app/" 
           />
           <ListProject
             projectName="Portfolio React"
