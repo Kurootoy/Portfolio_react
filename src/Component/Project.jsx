@@ -77,8 +77,8 @@ const Project = () => {
             description="This is a web application related to exercise. It will be used to track the user's exercise by following CRUD (Create, Read, Update, Delete) principles"
             image="../img/keep-fit.png"
             Skill={["Javascript", "React Js", "MongoDB", "Tailwind"]}
-            codeLink="https://github.com/peth12/keepfit-react"
-            demoLink="https://your-demo-link-for-Keep-fit" 
+            codeLink="https://github.com/Kurootoy/keepfit-react"
+            demoLink="keepfit-react.vercel.app" 
           />
           <ListProject
             projectName="Portfolio React"
