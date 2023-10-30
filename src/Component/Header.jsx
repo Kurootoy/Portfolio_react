@@ -23,7 +23,7 @@ const Header = () => {
           </p>
           <div className="bodyIcon flex justify-center items-center animate-bounce">
             {socialLink(
-              "https://www.linkedin.com/in/settawut-jirakannukun/",
+              "https://www.linkedin.com/in/sattawut/",
               "linkedin-square",
               "#0072b1"
             )}
